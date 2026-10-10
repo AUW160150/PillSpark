@@ -1,5 +1,7 @@
 # PillSpark — faxed prescriptions → verified orders, and honest about what it can't read
 
+Demo Video: https://www.youtube.com/watch?v=l0NVlg1GJfI 
+
 Pharmacies still receive prescriptions as blurry faxes that someone retypes by hand. PillSpark turns a fax image into a
 structured order (patient, drug, strength, form, quantity, directions, refills, prescriber, date) and **flags every
 uncertain field for a pharmacist instead of guessing**.

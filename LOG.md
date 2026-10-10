@@ -47,3 +47,10 @@ Format: `## [YYYY-MM-DD HH:MM] <topic>` then bullets. Decisions get a `DECISION:
 - TODO phase 1 wrap: reverify gates → commit + push → user adds PRISM keys → G7.
 - TODO phase 2 (frontend, BioHarmonize style): landing → upload/choose fax → pipeline screen (6-agent stepper + live log fed by `/api/orders/{id}/status?since=`) → review screen (fields table with status pills, candidates, pharmacist resolve via `/api/orders/{id}/resolve`) → PRISM panel.
 - TODO phase 3: multi-line-item orders (real clinic sheets list several drugs), user's phone photos in `data/user_photos/`, PRISM dashboard screenshots, demo script.
+
+## [2026-10-10 12:45] Data honesty check + print pack
+- User asked whether the "real samples" are proper faxes. Checked all six visually: they are **handwritten Indian hospital case notes** (history/exam/investigations, multi-drug inpatient orders), not faxed pharmacy prescriptions; 000 and 004 contain no prescription. Documented in `data/real_samples/README.md`; G8 retitled "handwriting stress set (NOT faxes)". They stay only to prove the pipeline never guesses on garbage input.
+- Fax realism check on synthetic set: fax header line, letter page, three looks (EHR printout = the common real case, typed pad + handwritten entries, fully handwritten), degradation (skew, blur, noise, 100-dpi resample, streaks, JPEG). Viewed rx_004_hand_light + rx_008_ehr_heavy: look right.
+- Claude Sonnet 5 via Nicrron: hidden reasoning counts against max_tokens → 1800 truncated (finish_reason=length, empty/partial JSON). FIX: max_tokens 6000 for anthropic/*, minified-JSON instruction, truncation raised as pass error. Reverify: 8/9 gates (G7 PRISM still needs keys).
+- NEW `backend/scripts/make_print_pack.py` → `data/print_pack/pillspark_print_pack.pdf` (index page + 24 clean sheets). User prints/faxes/photographs → save as `data/user_photos/rx_NNN*.jpg`; `load_ground_truth` maps the rx_NNN prefix to the synthetic spec so photographed copies are scored against truth.
+- Pushed to GitHub main (commit 8fa75fb + follow-up).

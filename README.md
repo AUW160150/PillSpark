@@ -62,8 +62,9 @@ Reports `verified_precision` (of fields we auto-verified, how many were exactly 
 No public full-page faxed-prescription dataset with labels exists, so `scripts/gen_fax.py` renders US-style faxes in
 three looks (typed Rx pad with handwritten orders, fully handwritten, EHR printout) at three degradation levels, with
 deliberate ambiguities (ink blot on a strength digit, scribbled quantity, `q.d.`, missing refills/DOB, look-alike drug).
-`data/real_samples/` holds real clinic prescription pages from the `tavishm/100-handwritten-medical-records` set as an
-unlabeled stress test. NPIs in synthetic data are Luhn-valid but fictitious, so NPPES flags them — by design.
+`data/real_samples/` holds six real *handwritten Indian hospital case notes* (`tavishm/100-handwritten-medical-records`) —
+not faxes, multi-drug, two without any prescription — kept only as a handwriting stress test that must end `blocked`.
+`data/print_pack/pillspark_print_pack.pdf` is the clean set for printing → faxing/photographing (`data/user_photos/`). NPIs in synthetic data are Luhn-valid but fictitious, so NPPES flags them — by design.
 
 ## Layout
 See `PLAN.md`. `LOG.md` is the append-only build log; `GATES.md` is the completion ledger.

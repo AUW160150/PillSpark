@@ -35,6 +35,7 @@ Return ONLY a JSON object with this exact shape (no prose, no markdown):
   "raw_transcription": string,
   "image_quality_notes": string
 }
+Output minified JSON on one line (no indentation, no markdown fence).
 Rules:
 - "confidence" is your calibrated probability that the value is exactly right as written on the page.
 - If any character of a value is smudged, cut off, or ambiguous (e.g. 1 vs 7, 0 vs 6, qd vs qid, mg vs mcg), set legible=false, put your best readings in "alternatives" (max 3) and set value to null.
@@ -123,7 +124,8 @@ def live_pass(image_bytes: bytes, model: str, temperature: float, pass_idx: int)
             {"type": "image_url", "image_url": {"url": data_url, "detail": "high"}},
         ]},
     ]
-    kwargs = {"model": model, "messages": messages, "max_tokens": 1800}
+    # Anthropic models count hidden reasoning against max_tokens through the gateway → give them headroom.
+    kwargs = {"model": model, "messages": messages, "max_tokens": 6000 if model.startswith("anthropic/") else 2500}
     # Anthropic Claude 5-family rejects `temperature` through the gateway ("deprecated for this model");
     # pass diversity for those comes from the second model + repeated sampling instead.
     if not model.startswith("anthropic/"):
@@ -135,6 +137,9 @@ def live_pass(image_bytes: bytes, model: str, temperature: float, pass_idx: int)
     latency_ms = int((time.perf_counter() - t0) * 1000)
     text = resp.choices[0].message.content or ""
     usage = getattr(resp, "usage", None)
+    finish = getattr(resp.choices[0], "finish_reason", None)
+    if finish == "length":
+        raise RuntimeError(f"response truncated at max_tokens (finish_reason=length, {len(text)} chars)")
     parsed = _coerce(_parse_json(text))
     return {
         "pass": pass_idx, "mode": "live", "model": getattr(resp, "model", model) or model, "requested_model": model,

@@ -447,10 +447,20 @@ def run_order(order: Order, image_path: Path, ground_truth: Optional[Dict[str, A
 
 
 def load_ground_truth(image_path: Path) -> Optional[Dict[str, Any]]:
-    gt = Path(image_path).with_suffix(".json")
+    """Sidecar JSON next to the image, or — for printed/photographed/faxed copies in data/user_photos named like
+    rx_004*.jpg — the synthetic spec whose id starts with the same rx_NNN prefix."""
+    image_path = Path(image_path)
+    gt = image_path.with_suffix(".json")
     if gt.exists():
         try:
             return json.loads(gt.read_text())
         except Exception:
             return None
+    m = re.match(r"(rx_\d{3})", image_path.stem)
+    if m:
+        for cand in sorted(config.SYNTHETIC_DIR.glob(f"{m.group(1)}_*.json")):
+            try:
+                return json.loads(cand.read_text())
+            except Exception:
+                continue
     return None

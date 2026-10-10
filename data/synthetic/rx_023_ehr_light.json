@@ -1,0 +1,32 @@
+{
+  "id": "rx_023_ehr_light",
+  "style": "ehr",
+  "degradation": "light",
+  "ambiguous": [
+    "patient_dob"
+  ],
+  "fields": {
+    "patient_name": "Robert Khan",
+    "patient_dob": null,
+    "drug_name": "Losartan",
+    "strength": "50 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO daily",
+    "refills": "0",
+    "prescriber_name": "Dr. Anita Rao",
+    "prescriber_npi": "1814632778",
+    "prescriber_dea": "BR8077275",
+    "date_written": "2026-07-07"
+  },
+  "clinic": "Morningside Pediatrics & Family",
+  "address": "268 Lexington Ave, New York, NY 10030",
+  "phone": "(212) 555-6254",
+  "fax": "(212) 555-8667",
+  "pt_address": "722 Riverside Dr, NY",
+  "fax_date": "JUL 07 2026",
+  "fax_time": "12:53",
+  "expected_flags": [
+    "patient_dob"
+  ]
+}

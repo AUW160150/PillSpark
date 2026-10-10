@@ -1,0 +1,34 @@
+{
+  "id": "rx_016_hand_heavy",
+  "style": "hand",
+  "degradation": "heavy",
+  "ambiguous": [
+    "strength",
+    "quantity"
+  ],
+  "fields": {
+    "patient_name": "Robert Garcia",
+    "patient_dob": "2002-08-08",
+    "drug_name": "Ibuprofen",
+    "strength": "600 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO q6h PRN pain",
+    "refills": "2",
+    "prescriber_name": "Dr. Sarah Mitchell",
+    "prescriber_npi": "6112565174",
+    "prescriber_dea": "FM8800218",
+    "date_written": "2026-03-26"
+  },
+  "clinic": "Queens Boulevard Medical Associates",
+  "address": "181 Amsterdam Ave, New York, NY 11093",
+  "phone": "(212) 555-3231",
+  "fax": "(212) 555-1423",
+  "pt_address": "887 W 110th St, NY",
+  "fax_date": "MAR 26 2026",
+  "fax_time": "17:46",
+  "expected_flags": [
+    "strength",
+    "quantity"
+  ]
+}

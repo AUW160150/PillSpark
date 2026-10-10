@@ -1,0 +1,32 @@
+{
+  "id": "rx_012_typed_light",
+  "style": "typed",
+  "degradation": "light",
+  "ambiguous": [
+    "quantity"
+  ],
+  "fields": {
+    "patient_name": "Priya Smith",
+    "patient_dob": "1947-03-13",
+    "drug_name": "Amoxicillin",
+    "strength": "500 mg",
+    "dosage_form": "capsule",
+    "quantity": "30",
+    "sig": "1 cap PO TID x 10 days",
+    "refills": "2",
+    "prescriber_name": "Dr. Sarah Mitchell",
+    "prescriber_npi": "5328704650",
+    "prescriber_dea": "FM5721015",
+    "date_written": "2026-07-04"
+  },
+  "clinic": "Riverside Family Medicine",
+  "address": "459 Court St, New York, NY 10081",
+  "phone": "(212) 555-4398",
+  "fax": "(212) 555-7228",
+  "pt_address": "375 Steinway St, NY",
+  "fax_date": "JUL 04 2026",
+  "fax_time": "14:05",
+  "expected_flags": [
+    "quantity"
+  ]
+}

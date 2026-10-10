@@ -1,0 +1,32 @@
+{
+  "id": "rx_003_typed_light",
+  "style": "typed",
+  "degradation": "light",
+  "ambiguous": [
+    "quantity"
+  ],
+  "fields": {
+    "patient_name": "Kevin Patel",
+    "patient_dob": "2007-05-21",
+    "drug_name": "Fluoxetine",
+    "strength": "20 mg",
+    "dosage_form": "capsule",
+    "quantity": "30",
+    "sig": "1 cap PO daily",
+    "refills": "0",
+    "prescriber_name": "Dr. Sarah Mitchell",
+    "prescriber_npi": "5388853934",
+    "prescriber_dea": "FM3633876",
+    "date_written": "2026-09-12"
+  },
+  "clinic": "Riverside Family Medicine",
+  "address": "128 Atlantic Ave, New York, NY 11043",
+  "phone": "(212) 555-4172",
+  "fax": "(212) 555-6640",
+  "pt_address": "467 Steinway St, NY",
+  "fax_date": "SEP 12 2026",
+  "fax_time": "13:05",
+  "expected_flags": [
+    "quantity"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rx_022_hand_light",
+  "style": "hand",
+  "degradation": "light",
+  "ambiguous": [
+    "refills"
+  ],
+  "fields": {
+    "patient_name": "Fatima Johnson",
+    "patient_dob": "1949-07-14",
+    "drug_name": "Losartan",
+    "strength": "50 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO daily",
+    "refills": null,
+    "prescriber_name": "Dr. Sarah Mitchell",
+    "prescriber_npi": "3468367321",
+    "prescriber_dea": null,
+    "date_written": "2026-10-09"
+  },
+  "clinic": "Morningside Pediatrics & Family",
+  "address": "579 Atlantic Ave, New York, NY 10070",
+  "phone": "(212) 555-6812",
+  "fax": "(212) 555-4775",
+  "pt_address": "283 Riverside Dr, NY",
+  "fax_date": "OCT 09 2026",
+  "fax_time": "12:27",
+  "expected_flags": [
+    "refills"
+  ]
+}

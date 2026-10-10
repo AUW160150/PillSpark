@@ -1,0 +1,32 @@
+{
+  "id": "rx_011_ehr_clean",
+  "style": "ehr",
+  "degradation": "clean",
+  "ambiguous": [
+    "strength"
+  ],
+  "fields": {
+    "patient_name": "Samuel Brown",
+    "patient_dob": "1992-12-21",
+    "drug_name": "Cephalexin",
+    "strength": "500 mg",
+    "dosage_form": "capsule",
+    "quantity": "28",
+    "sig": "1 cap PO QID x 7 days",
+    "refills": "1",
+    "prescriber_name": "Dr. Sarah Mitchell",
+    "prescriber_npi": "6143653700",
+    "prescriber_dea": "FM5656307",
+    "date_written": "2026-01-07"
+  },
+  "clinic": "Queens Boulevard Medical Associates",
+  "address": "169 Broadway, New York, NY 11035",
+  "phone": "(212) 555-6107",
+  "fax": "(212) 555-4177",
+  "pt_address": "246 Riverside Dr, NY",
+  "fax_date": "JAN 07 2026",
+  "fax_time": "11:16",
+  "expected_flags": [
+    "strength"
+  ]
+}

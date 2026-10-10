@@ -1,0 +1,28 @@
+{
+  "id": "rx_000_typed_clean",
+  "style": "typed",
+  "degradation": "clean",
+  "ambiguous": [],
+  "fields": {
+    "patient_name": "Priya Okafor",
+    "patient_dob": "1949-09-04",
+    "drug_name": "Azithromycin",
+    "strength": "250 mg",
+    "dosage_form": "tablet",
+    "quantity": "6",
+    "sig": "2 tabs PO day 1 then 1 tab daily x 4 days",
+    "refills": "1",
+    "prescriber_name": "Dr. Sarah Mitchell",
+    "prescriber_npi": "1661318604",
+    "prescriber_dea": "MM9139090",
+    "date_written": "2026-09-07"
+  },
+  "clinic": "Riverside Family Medicine",
+  "address": "326 Amsterdam Ave, New York, NY 10047",
+  "phone": "(212) 555-7867",
+  "fax": "(212) 555-3363",
+  "pt_address": "563 W 110th St, NY",
+  "fax_date": "SEP 07 2026",
+  "fax_time": "17:19",
+  "expected_flags": []
+}

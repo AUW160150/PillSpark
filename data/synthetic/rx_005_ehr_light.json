@@ -1,0 +1,32 @@
+{
+  "id": "rx_005_ehr_light",
+  "style": "ehr",
+  "degradation": "light",
+  "ambiguous": [
+    "patient_dob"
+  ],
+  "fields": {
+    "patient_name": "Fatima Martinez",
+    "patient_dob": null,
+    "drug_name": "Fluoxetine",
+    "strength": "20 mg",
+    "dosage_form": "capsule",
+    "quantity": "30",
+    "sig": "1 cap PO daily",
+    "refills": "0",
+    "prescriber_name": "Dr. Laura Bennett",
+    "prescriber_npi": "0587706587",
+    "prescriber_dea": "AB9481134",
+    "date_written": "2026-06-03"
+  },
+  "clinic": "Riverside Family Medicine",
+  "address": "371 Atlantic Ave, New York, NY 10033",
+  "phone": "(212) 555-5430",
+  "fax": "(212) 555-3122",
+  "pt_address": "849 Riverside Dr, NY",
+  "fax_date": "JUN 03 2026",
+  "fax_time": "12:25",
+  "expected_flags": [
+    "patient_dob"
+  ]
+}

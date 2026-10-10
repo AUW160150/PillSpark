@@ -1,0 +1,32 @@
+{
+  "id": "rx_008_ehr_heavy",
+  "style": "ehr",
+  "degradation": "heavy",
+  "ambiguous": [
+    "drug_name"
+  ],
+  "fields": {
+    "patient_name": "Aisha Reyes",
+    "patient_dob": "1989-04-07",
+    "drug_name": "Clonidine",
+    "strength": "0.1 mg",
+    "dosage_form": "tablet",
+    "quantity": "60",
+    "sig": "1 tab PO BID",
+    "refills": "0",
+    "prescriber_name": "Dr. Anita Rao",
+    "prescriber_npi": "5298415378",
+    "prescriber_dea": "MR7602077",
+    "date_written": "2026-03-24"
+  },
+  "clinic": "Morningside Pediatrics & Family",
+  "address": "409 Broadway, New York, NY 11054",
+  "phone": "(212) 555-7162",
+  "fax": "(212) 555-6178",
+  "pt_address": "133 Steinway St, NY",
+  "fax_date": "MAR 24 2026",
+  "fax_time": "08:20",
+  "expected_flags": [
+    "drug_name"
+  ]
+}

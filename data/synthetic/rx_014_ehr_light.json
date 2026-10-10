@@ -1,0 +1,32 @@
+{
+  "id": "rx_014_ehr_light",
+  "style": "ehr",
+  "degradation": "light",
+  "ambiguous": [
+    "patient_dob"
+  ],
+  "fields": {
+    "patient_name": "Maria Martinez",
+    "patient_dob": null,
+    "drug_name": "Omeprazole",
+    "strength": "20 mg",
+    "dosage_form": "capsule",
+    "quantity": "14",
+    "sig": "1 cap PO daily x 14 days",
+    "refills": "5",
+    "prescriber_name": "Dr. Laura Bennett",
+    "prescriber_npi": "1307871610",
+    "prescriber_dea": "MB6828125",
+    "date_written": "2026-03-20"
+  },
+  "clinic": "Brooklyn Heights Primary Care",
+  "address": "519 Atlantic Ave, New York, NY 11063",
+  "phone": "(212) 555-1841",
+  "fax": "(212) 555-6117",
+  "pt_address": "773 Steinway St, NY",
+  "fax_date": "MAR 20 2026",
+  "fax_time": "14:26",
+  "expected_flags": [
+    "patient_dob"
+  ]
+}

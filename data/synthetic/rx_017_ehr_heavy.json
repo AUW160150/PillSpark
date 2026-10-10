@@ -1,0 +1,32 @@
+{
+  "id": "rx_017_ehr_heavy",
+  "style": "ehr",
+  "degradation": "heavy",
+  "ambiguous": [
+    "drug_name"
+  ],
+  "fields": {
+    "patient_name": "Samuel Patel",
+    "patient_dob": "1952-02-21",
+    "drug_name": "Hydroxyzine",
+    "strength": "25 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO TID PRN anxiety",
+    "refills": "0",
+    "prescriber_name": "Dr. Carlos Mendez",
+    "prescriber_npi": "0085997985",
+    "prescriber_dea": "AM7320005",
+    "date_written": "2026-07-26"
+  },
+  "clinic": "Morningside Pediatrics & Family",
+  "address": "290 Broadway, New York, NY 10017",
+  "phone": "(212) 555-2718",
+  "fax": "(212) 555-1202",
+  "pt_address": "637 Flatbush Ave, NY",
+  "fax_date": "JUL 26 2026",
+  "fax_time": "10:26",
+  "expected_flags": [
+    "drug_name"
+  ]
+}

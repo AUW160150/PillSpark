@@ -1,0 +1,32 @@
+{
+  "id": "rx_020_ehr_clean",
+  "style": "ehr",
+  "degradation": "clean",
+  "ambiguous": [
+    "strength"
+  ],
+  "fields": {
+    "patient_name": "Daniel Martinez",
+    "patient_dob": "1952-07-13",
+    "drug_name": "Cephalexin",
+    "strength": "500 mg",
+    "dosage_form": "capsule",
+    "quantity": "28",
+    "sig": "1 cap PO QID x 7 days",
+    "refills": "5",
+    "prescriber_name": "Dr. John Smith",
+    "prescriber_npi": "5344688267",
+    "prescriber_dea": "AS3728992",
+    "date_written": "2026-07-21"
+  },
+  "clinic": "Brooklyn Heights Primary Care",
+  "address": "695 Atlantic Ave, New York, NY 10067",
+  "phone": "(212) 555-6297",
+  "fax": "(212) 555-3777",
+  "pt_address": "484 Riverside Dr, NY",
+  "fax_date": "JUL 21 2026",
+  "fax_time": "12:37",
+  "expected_flags": [
+    "strength"
+  ]
+}

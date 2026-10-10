@@ -1,0 +1,32 @@
+{
+  "id": "rx_006_typed_heavy",
+  "style": "typed",
+  "degradation": "heavy",
+  "ambiguous": [
+    "sig"
+  ],
+  "fields": {
+    "patient_name": "Linda Khan",
+    "patient_dob": "1947-12-06",
+    "drug_name": "Cephalexin",
+    "strength": "500 mg",
+    "dosage_form": "capsule",
+    "quantity": "28",
+    "sig": "1 cap PO QID x 7 days q.d.",
+    "refills": "2",
+    "prescriber_name": "Dr. Anita Rao",
+    "prescriber_npi": "4193141700",
+    "prescriber_dea": "AR5864928",
+    "date_written": "2026-05-01"
+  },
+  "clinic": "Queens Boulevard Medical Associates",
+  "address": "826 Broadway, New York, NY 10030",
+  "phone": "(212) 555-5290",
+  "fax": "(212) 555-1825",
+  "pt_address": "195 Flatbush Ave, NY",
+  "fax_date": "MAY 01 2026",
+  "fax_time": "12:40",
+  "expected_flags": [
+    "sig"
+  ]
+}

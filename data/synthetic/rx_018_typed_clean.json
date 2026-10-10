@@ -1,0 +1,30 @@
+{
+  "id": "rx_018_typed_clean",
+  "style": "typed",
+  "degradation": "clean",
+  "ambiguous": [],
+  "fields": {
+    "patient_name": "Sofia Williams",
+    "patient_dob": "1953-05-08",
+    "drug_name": "Hydroxyzine",
+    "strength": "25 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO TID PRN anxiety",
+    "refills": "5",
+    "prescriber_name": "Dr. Michael Torres",
+    "prescriber_npi": "0486844315",
+    "prescriber_dea": "BT8024337",
+    "date_written": "2026-02-11"
+  },
+  "clinic": "Brooklyn Heights Primary Care",
+  "address": "296 Court St, New York, NY 11086",
+  "phone": "(212) 555-4918",
+  "fax": "(212) 555-7216",
+  "pt_address": "939 Riverside Dr, NY",
+  "fax_date": "FEB 11 2026",
+  "fax_time": "15:53",
+  "expected_flags": [
+    "drug_name"
+  ]
+}

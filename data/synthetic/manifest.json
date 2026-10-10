@@ -1,0 +1,184 @@
+[
+  {
+    "image": "rx_000_typed_clean.jpg",
+    "style": "typed",
+    "degradation": "clean",
+    "ambiguous": []
+  },
+  {
+    "image": "rx_001_hand_clean.jpg",
+    "style": "hand",
+    "degradation": "clean",
+    "ambiguous": []
+  },
+  {
+    "image": "rx_002_ehr_clean.jpg",
+    "style": "ehr",
+    "degradation": "clean",
+    "ambiguous": [
+      "strength"
+    ]
+  },
+  {
+    "image": "rx_003_typed_light.jpg",
+    "style": "typed",
+    "degradation": "light",
+    "ambiguous": [
+      "quantity"
+    ]
+  },
+  {
+    "image": "rx_004_hand_light.jpg",
+    "style": "hand",
+    "degradation": "light",
+    "ambiguous": [
+      "refills"
+    ]
+  },
+  {
+    "image": "rx_005_ehr_light.jpg",
+    "style": "ehr",
+    "degradation": "light",
+    "ambiguous": [
+      "patient_dob"
+    ]
+  },
+  {
+    "image": "rx_006_typed_heavy.jpg",
+    "style": "typed",
+    "degradation": "heavy",
+    "ambiguous": [
+      "sig"
+    ]
+  },
+  {
+    "image": "rx_007_hand_heavy.jpg",
+    "style": "hand",
+    "degradation": "heavy",
+    "ambiguous": [
+      "strength",
+      "quantity"
+    ]
+  },
+  {
+    "image": "rx_008_ehr_heavy.jpg",
+    "style": "ehr",
+    "degradation": "heavy",
+    "ambiguous": [
+      "drug_name"
+    ]
+  },
+  {
+    "image": "rx_009_typed_clean.jpg",
+    "style": "typed",
+    "degradation": "clean",
+    "ambiguous": []
+  },
+  {
+    "image": "rx_010_hand_clean.jpg",
+    "style": "hand",
+    "degradation": "clean",
+    "ambiguous": []
+  },
+  {
+    "image": "rx_011_ehr_clean.jpg",
+    "style": "ehr",
+    "degradation": "clean",
+    "ambiguous": [
+      "strength"
+    ]
+  },
+  {
+    "image": "rx_012_typed_light.jpg",
+    "style": "typed",
+    "degradation": "light",
+    "ambiguous": [
+      "quantity"
+    ]
+  },
+  {
+    "image": "rx_013_hand_light.jpg",
+    "style": "hand",
+    "degradation": "light",
+    "ambiguous": [
+      "refills"
+    ]
+  },
+  {
+    "image": "rx_014_ehr_light.jpg",
+    "style": "ehr",
+    "degradation": "light",
+    "ambiguous": [
+      "patient_dob"
+    ]
+  },
+  {
+    "image": "rx_015_typed_heavy.jpg",
+    "style": "typed",
+    "degradation": "heavy",
+    "ambiguous": [
+      "sig"
+    ]
+  },
+  {
+    "image": "rx_016_hand_heavy.jpg",
+    "style": "hand",
+    "degradation": "heavy",
+    "ambiguous": [
+      "strength",
+      "quantity"
+    ]
+  },
+  {
+    "image": "rx_017_ehr_heavy.jpg",
+    "style": "ehr",
+    "degradation": "heavy",
+    "ambiguous": [
+      "drug_name"
+    ]
+  },
+  {
+    "image": "rx_018_typed_clean.jpg",
+    "style": "typed",
+    "degradation": "clean",
+    "ambiguous": []
+  },
+  {
+    "image": "rx_019_hand_clean.jpg",
+    "style": "hand",
+    "degradation": "clean",
+    "ambiguous": []
+  },
+  {
+    "image": "rx_020_ehr_clean.jpg",
+    "style": "ehr",
+    "degradation": "clean",
+    "ambiguous": [
+      "strength"
+    ]
+  },
+  {
+    "image": "rx_021_typed_light.jpg",
+    "style": "typed",
+    "degradation": "light",
+    "ambiguous": [
+      "quantity"
+    ]
+  },
+  {
+    "image": "rx_022_hand_light.jpg",
+    "style": "hand",
+    "degradation": "light",
+    "ambiguous": [
+      "refills"
+    ]
+  },
+  {
+    "image": "rx_023_ehr_light.jpg",
+    "style": "ehr",
+    "degradation": "light",
+    "ambiguous": [
+      "patient_dob"
+    ]
+  }
+]

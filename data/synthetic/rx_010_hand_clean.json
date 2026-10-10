@@ -1,0 +1,30 @@
+{
+  "id": "rx_010_hand_clean",
+  "style": "hand",
+  "degradation": "clean",
+  "ambiguous": [],
+  "fields": {
+    "patient_name": "Elena Okafor",
+    "patient_dob": "1983-01-16",
+    "drug_name": "Clonidine",
+    "strength": "0.1 mg",
+    "dosage_form": "tablet",
+    "quantity": "60",
+    "sig": "1 tab PO BID",
+    "refills": "1",
+    "prescriber_name": "Dr. Anita Rao",
+    "prescriber_npi": "1436676401",
+    "prescriber_dea": null,
+    "date_written": "2026-03-22"
+  },
+  "clinic": "Queens Boulevard Medical Associates",
+  "address": "975 Court St, New York, NY 11041",
+  "phone": "(212) 555-2786",
+  "fax": "(212) 555-4666",
+  "pt_address": "168 Flatbush Ave, NY",
+  "fax_date": "MAR 22 2026",
+  "fax_time": "16:43",
+  "expected_flags": [
+    "drug_name"
+  ]
+}

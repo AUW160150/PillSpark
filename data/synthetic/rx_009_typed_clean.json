@@ -1,0 +1,28 @@
+{
+  "id": "rx_009_typed_clean",
+  "style": "typed",
+  "degradation": "clean",
+  "ambiguous": [],
+  "fields": {
+    "patient_name": "Aisha Lee",
+    "patient_dob": "1975-01-09",
+    "drug_name": "Pantoprazole",
+    "strength": "40 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO daily before breakfast",
+    "refills": "0",
+    "prescriber_name": "Dr. Laura Bennett",
+    "prescriber_npi": "4685356063",
+    "prescriber_dea": "MB8831061",
+    "date_written": "2026-08-10"
+  },
+  "clinic": "Queens Boulevard Medical Associates",
+  "address": "870 Broadway, New York, NY 11072",
+  "phone": "(212) 555-1802",
+  "fax": "(212) 555-3085",
+  "pt_address": "184 Riverside Dr, NY",
+  "fax_date": "AUG 10 2026",
+  "fax_time": "14:21",
+  "expected_flags": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rx_021_typed_light",
+  "style": "typed",
+  "degradation": "light",
+  "ambiguous": [
+    "quantity"
+  ],
+  "fields": {
+    "patient_name": "Kevin Williams",
+    "patient_dob": "1981-04-09",
+    "drug_name": "Azithromycin",
+    "strength": "250 mg",
+    "dosage_form": "tablet",
+    "quantity": "6",
+    "sig": "2 tabs PO day 1 then 1 tab daily x 4 days",
+    "refills": "5",
+    "prescriber_name": "Dr. Michael Torres",
+    "prescriber_npi": "3622446433",
+    "prescriber_dea": "AT1143673",
+    "date_written": "2026-03-22"
+  },
+  "clinic": "Riverside Family Medicine",
+  "address": "508 Court St, New York, NY 10074",
+  "phone": "(212) 555-5853",
+  "fax": "(212) 555-8590",
+  "pt_address": "32 Flatbush Ave, NY",
+  "fax_date": "MAR 22 2026",
+  "fax_time": "12:38",
+  "expected_flags": [
+    "quantity"
+  ]
+}

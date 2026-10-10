@@ -1,0 +1,28 @@
+{
+  "id": "rx_001_hand_clean",
+  "style": "hand",
+  "degradation": "clean",
+  "ambiguous": [],
+  "fields": {
+    "patient_name": "Linda Martinez",
+    "patient_dob": "2003-10-26",
+    "drug_name": "Lisinopril",
+    "strength": "20 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO daily",
+    "refills": "2",
+    "prescriber_name": "Dr. John Smith",
+    "prescriber_npi": "1049746500",
+    "prescriber_dea": null,
+    "date_written": "2026-02-09"
+  },
+  "clinic": "Brooklyn Heights Primary Care",
+  "address": "232 Broadway, New York, NY 11060",
+  "phone": "(212) 555-9134",
+  "fax": "(212) 555-2320",
+  "pt_address": "180 Riverside Dr, NY",
+  "fax_date": "FEB 09 2026",
+  "fax_time": "14:35",
+  "expected_flags": []
+}

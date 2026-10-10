@@ -1,0 +1,32 @@
+{
+  "id": "rx_002_ehr_clean",
+  "style": "ehr",
+  "degradation": "clean",
+  "ambiguous": [
+    "strength"
+  ],
+  "fields": {
+    "patient_name": "Fatima Okafor",
+    "patient_dob": "1953-08-21",
+    "drug_name": "Losartan",
+    "strength": "50 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO daily",
+    "refills": "2",
+    "prescriber_name": "Dr. Laura Bennett",
+    "prescriber_npi": "7215901092",
+    "prescriber_dea": "AB2815908",
+    "date_written": "2026-04-03"
+  },
+  "clinic": "Harlem Internal Medicine Group",
+  "address": "728 Court St, New York, NY 10091",
+  "phone": "(212) 555-5132",
+  "fax": "(212) 555-6691",
+  "pt_address": "626 Steinway St, NY",
+  "fax_date": "APR 03 2026",
+  "fax_time": "15:07",
+  "expected_flags": [
+    "strength"
+  ]
+}

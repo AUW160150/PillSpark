@@ -1,0 +1,34 @@
+{
+  "id": "rx_007_hand_heavy",
+  "style": "hand",
+  "degradation": "heavy",
+  "ambiguous": [
+    "strength",
+    "quantity"
+  ],
+  "fields": {
+    "patient_name": "Robert Chen",
+    "patient_dob": "1940-05-12",
+    "drug_name": "Levothyroxine",
+    "strength": "75 mcg",
+    "dosage_form": "tablet",
+    "quantity": "90",
+    "sig": "1 tab PO daily before breakfast",
+    "refills": "1",
+    "prescriber_name": "Dr. Carlos Mendez",
+    "prescriber_npi": "3520561747",
+    "prescriber_dea": "FM8338015",
+    "date_written": "2026-04-02"
+  },
+  "clinic": "Harlem Internal Medicine Group",
+  "address": "509 Lexington Ave, New York, NY 10060",
+  "phone": "(212) 555-1368",
+  "fax": "(212) 555-5909",
+  "pt_address": "321 Flatbush Ave, NY",
+  "fax_date": "APR 02 2026",
+  "fax_time": "09:37",
+  "expected_flags": [
+    "strength",
+    "quantity"
+  ]
+}

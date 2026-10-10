@@ -1,0 +1,32 @@
+{
+  "id": "rx_004_hand_light",
+  "style": "hand",
+  "degradation": "light",
+  "ambiguous": [
+    "refills"
+  ],
+  "fields": {
+    "patient_name": "Priya Garcia",
+    "patient_dob": "1963-10-01",
+    "drug_name": "Amlodipine",
+    "strength": "10 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO daily",
+    "refills": null,
+    "prescriber_name": "Dr. Carlos Mendez",
+    "prescriber_npi": "9180588870",
+    "prescriber_dea": "AM1803344",
+    "date_written": "2026-03-05"
+  },
+  "clinic": "Queens Boulevard Medical Associates",
+  "address": "563 Lexington Ave, New York, NY 10018",
+  "phone": "(212) 555-8262",
+  "fax": "(212) 555-6334",
+  "pt_address": "637 Flatbush Ave, NY",
+  "fax_date": "MAR 05 2026",
+  "fax_time": "12:28",
+  "expected_flags": [
+    "refills"
+  ]
+}

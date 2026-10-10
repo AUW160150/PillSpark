@@ -1,0 +1,28 @@
+{
+  "id": "rx_019_hand_clean",
+  "style": "hand",
+  "degradation": "clean",
+  "ambiguous": [],
+  "fields": {
+    "patient_name": "Daniel Brown",
+    "patient_dob": "1966-02-02",
+    "drug_name": "Losartan",
+    "strength": "50 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO daily",
+    "refills": "0",
+    "prescriber_name": "Dr. Michael Torres",
+    "prescriber_npi": "1213455649",
+    "prescriber_dea": "FT0544052",
+    "date_written": "2026-09-21"
+  },
+  "clinic": "Queens Boulevard Medical Associates",
+  "address": "615 Court St, New York, NY 11089",
+  "phone": "(212) 555-1507",
+  "fax": "(212) 555-7765",
+  "pt_address": "41 Riverside Dr, NY",
+  "fax_date": "SEP 21 2026",
+  "fax_time": "16:49",
+  "expected_flags": []
+}

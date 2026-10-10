@@ -1,0 +1,10 @@
+.env
+backend/.env
+backend/.venv/
+data/.cache/
+output/
+__pycache__/
+data/uploads/
+.DS_Store
+.unlazy/
+.unlazy-hook-state.json

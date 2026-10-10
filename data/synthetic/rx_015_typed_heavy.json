@@ -1,0 +1,32 @@
+{
+  "id": "rx_015_typed_heavy",
+  "style": "typed",
+  "degradation": "heavy",
+  "ambiguous": [
+    "sig"
+  ],
+  "fields": {
+    "patient_name": "Elena Okafor",
+    "patient_dob": "1966-01-14",
+    "drug_name": "Hydrochlorothiazide",
+    "strength": "25 mg",
+    "dosage_form": "tablet",
+    "quantity": "30",
+    "sig": "1 tab PO q.d.",
+    "refills": "0",
+    "prescriber_name": "Dr. Laura Bennett",
+    "prescriber_npi": "6957220083",
+    "prescriber_dea": "BB2619952",
+    "date_written": "2026-02-27"
+  },
+  "clinic": "Harlem Internal Medicine Group",
+  "address": "456 Atlantic Ave, New York, NY 10076",
+  "phone": "(212) 555-3814",
+  "fax": "(212) 555-2099",
+  "pt_address": "121 Riverside Dr, NY",
+  "fax_date": "FEB 27 2026",
+  "fax_time": "15:48",
+  "expected_flags": [
+    "sig"
+  ]
+}

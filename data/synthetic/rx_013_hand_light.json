@@ -1,0 +1,32 @@
+{
+  "id": "rx_013_hand_light",
+  "style": "hand",
+  "degradation": "light",
+  "ambiguous": [
+    "refills"
+  ],
+  "fields": {
+    "patient_name": "Aisha Chen",
+    "patient_dob": "1966-02-14",
+    "drug_name": "Atorvastatin",
+    "strength": "20 mg",
+    "dosage_form": "tablet",
+    "quantity": "90",
+    "sig": "1 tab PO QHS",
+    "refills": null,
+    "prescriber_name": "Dr. David Park",
+    "prescriber_npi": "2679381444",
+    "prescriber_dea": null,
+    "date_written": "2026-08-15"
+  },
+  "clinic": "Harlem Internal Medicine Group",
+  "address": "351 Broadway, New York, NY 10046",
+  "phone": "(212) 555-4084",
+  "fax": "(212) 555-6346",
+  "pt_address": "76 Riverside Dr, NY",
+  "fax_date": "AUG 15 2026",
+  "fax_time": "12:15",
+  "expected_flags": [
+    "refills"
+  ]
+}
